@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="CSS/Website_style.css"/>
+        
+        
+        <!-- This javascript makes an alert occur for when the user enters the correct or incorrect information respectively. 
+        The purpose of this was intended to test a username and password and be directed to another page however this functionality is not working--> 
+                <script language="javascript"> 
+
+        function check(form){
+            if(form.email.value === "UserExample" && form.password.value === "Password123")
+            {
+                alert("You have inputted the correct details!");
+             window.location= ("web/Main_Menu_Page.html");
+            }
+            else
+            {
+                alert("The username and password you have entered are incorrect.")
+            }
+        }
+        </script>
+        
+        
+        <title>Login page</title>
+</head>
+    
+    <body>
+        <header>
+            <h1><br>LCJM fitness</h1>
+        </header>
+        
+        <div class="login-box">
+<!-- The code below creates the log in form  --> 
+            <h1>Login here</h1>
+            <br>
+            
+            <form id="loginForm" method="post" name="loginForm">  
+      
+                <p>Email:</p><br>
+                        <input type="text" name="email" placeholder="Enter Email"/>
+                <p>Password:</p><br>
+                        <input type="password" name="password" placeholder="Enter Password"/>
+                        
+                        <input type="submit" name="submit" value="login" onclick="check(this.form)"/>
+            </form><br>
+            <!-- This hyperlink will direct the user to the create a new account page  -->  
+                    <a href="Create_Account_Page.html">Make A New Account</a>
+</div>
+        
+
+        
+        
+        <footer>
+            <p>Created by Lauren Mather</p>
+        </footer>
+    </body>
+</html>

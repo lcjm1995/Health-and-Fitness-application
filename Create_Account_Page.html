@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="CSS/Website_style.css"/>
+        
+        <title>Create A New Account</title>
+</head>
+    
+    <body>            
+
+        <header>
+            <br>
+            <h1>LCJM fitness</h1>
+        </header>
+        
+        <div class="create-account-box">
+       <!-- The code below creates the create a new account box  -->          
+            <h1>Create a new account</h1>
+            
+            <form>
+                
+                
+                    <p>Name:</p>
+                        <input type="text" name="Name" placeholder="Enter your name"/>
+                   
+                    <p>Email:</p>
+                        <input type="email" name="email" placeholder="Enter your Email"/>
+                    
+                    <p>Password:</p>
+                        <input type="password" name="password" placeholder="Enter a Password"/>
+                   
+               <!-- This creates a drop down menu for the users to select their gender  -->     
+                    <p> Gender:</p>
+                    
+            <div class="Gender_Selection">
+                <select name="Select Gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                    
+                </select>
+            </div>
+                    
+               <!-- This creates a drop down menu for the users to select their goal  -->  
+                    <p> Goal:</p>
+                    
+                <div class="Weight_Selection">    
+                    <select name="Select Weight">
+                    <option>Lose weight</option>
+                    <option>Gain weight</option>
+                    <option>Maintain weight</option>
+                    
+                </select>
+            </div>
+                    
+                    <p>Weight:</p>
+                        <input type="text" name="weight" placeholder="Your weight (lbs & stone)"/>
+                        
+                    <p>Your Goal Weight:</p>
+                        <input type="text" name="goal weight" placeholder="Your Goal weight (lbs & stone)"/>
+                    
+                    <p>Weight:</p>
+                        <input type="text" name="height" placeholder="Height (Feet and Inches)"/>
+                        
+                    <p>Date Of Birth:</p>
+                        <input type="text" name="DOB" placeholder="Enter your birthdate (DD/MM/YY)"/>
+
+                        
+                        <input type="submit" name="submit" value="Create account"/>
+            </form><br>
+</div>
+            <footer>
+                    <p>Created by Lauren Mather</p>
+            </footer>
+            
+        </div>
+    </body>
+</html>

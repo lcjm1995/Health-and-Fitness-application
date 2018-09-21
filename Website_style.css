@@ -1,0 +1,630 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Apr-2018, 02:09:04
+    Author     : laure
+*/
+html{
+    background-image: url("../Images/BackgroundImage_Op2.jpg");
+    //background-color: #fff
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Palatino;
+}
+p{
+   color: #fff;
+   margin: 0;
+   padding: 0 0 20px;
+   text-align: center;
+   font-size: 20px; 
+}
+.radio_button1 {
+    float:none;
+    
+    color: #fff;
+}
+.radio_button2 {
+    float:none;
+    
+    color: #fff;
+}
+.radio_button1 p{
+    float: left;
+    display: inline-block;
+}
+.radio_button2 p{
+    float: right;
+    display: inline-block;
+}
+
+.login-box{
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(63, 62, 58, 0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: #fff;
+}
+.create-account-box{
+    width: 700px;
+    height: 1270px;
+    text-align: center;
+    background-color: rgba(63, 62, 58, 0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: #fff;
+}
+.create-account-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.create-account-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.create-account-box input[type="text"], input[type="password"], input[type="radio"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.create-account-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(64, 64, 191);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.create-account-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(0, 255, 236);
+    color: #fff;
+}
+
+.create-account-box a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.create-account-box a:hover
+{
+ 
+    color: rgb(0, 255, 236);  
+}
+
+h1{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+h2{
+
+    margin: 0;
+    padding: 0 0 14px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(64, 64, 191);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(0, 255, 236);
+    color: #000;
+}
+
+.login-box a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-box a:hover
+{
+    color: rgb(0, 255, 236);  
+}
+
+footer{
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(64, 64, 191, 0.6);
+    opacity: 0.8;
+    right: 0;
+    left: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0 0 20px;
+    top: 0;
+    text-align: center;
+    background-color: rgb(64, 64, 191);
+    
+    right: 0;
+    left: 0;
+}
+
+footer, header p {
+    margin-right: 20px;
+    margin-top: 50px;
+    color: white;
+    font-family: Palantino;
+}   
+
+.footer-text {
+    color: white;
+}
+
+.footer-text:hover {
+    color: white;
+}
+.header-text {
+    color: white;
+}
+
+.header-text:hover {
+    color: white;  
+}
+
+.container {
+    width: 80%;
+    border: 1px solid gray;
+    height: 1400px;
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.exercise_container {
+    width: 80%;
+    border: 1px solid gray;
+    height: 6000px;
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+nav ul {
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.85);
+
+    box-shadow: -2px 2px 4px rgba (0, 0, 0, 0.5);
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+  //  list-style-type: none;
+  //  margin: 0;
+  //  padding: 0;
+   // width: 10%;
+
+  //  position: fixed;
+  //  height: 100%;
+   // overflow: auto;
+}
+
+nav li{
+    float: left;
+
+    height: 40px;
+
+    opacity: .8;
+    font-size: 18px;
+  //  text-align: center;
+    
+}
+
+nav li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li:hover {
+    background: linear-gradient(top, rgba(33, 105, 243, 0) 0%, rgba(33, 105, 243, 0.5) 100%);
+    background: -moz-linear-gradient(top, rgba(33, 105, 243, 0) 0%, rgba(33, 105, 243, 0.5) 100%);
+    background: -webkit-linear-gradient(top, rgba(33, 105, 243, 0) 0%, rgba(33, 105, 243, 0.5) 100%);
+}
+
+nav li a:hover {
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button1MainMenu {
+    
+    width: 45%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.9;
+    padding-left: 20px;
+    color: #fff;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(64, 64, 191);
+    text-align: center;
+    margin: 0 auto;
+}
+.button2MainMenu {
+    
+    width: 45%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.9;
+    padding-left: 20px;
+    color: #fff;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(64, 64, 191);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button3MainMenu {
+    
+    width: 45%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.9;
+    padding-left: 20px;
+    color: #fff;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(64, 64, 191);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button4MainMenu {
+    
+    width: 45%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.9;
+    padding-left: 20px;
+    color: #fff;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(64, 64, 191);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button5MainMenu {
+    
+    width: 45%;
+    height: 70px;
+    background-color: #000;
+    opacity: 0.9;
+    padding-left: 20px;
+    color: #fff;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(64, 64, 191);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meal-diary-box{
+    width: 700px;
+    height: 900px;
+    text-align: center;
+    background-color: rgba(63, 62, 58, 0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.meal-diary-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.meal-diary-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.meal-diary-box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.meal-diary-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(64, 64, 191);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.meal-diary-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(0, 255, 236);
+    color: #fff;
+}
+
+.meal-diary-box a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.meal-diary-box a:hover
+{
+ 
+    color: rgb(0, 255, 236);  
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 70%;
+    padding: 20px;
+}
+/* Fake image */
+.fakefilter {
+    background-color: #aaa;
+    width: 15%;
+    padding: 20px;
+    height: 20px;
+}
+
+/* Fake video */
+.fakevid {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    background-color: #aaa;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Fake graph */
+.fakegraph {
+    background-color: #aaa;
+    width: 600px;
+    padding: 20px;
+    top: 170px;
+    text-align: center;
+    border-radius: 4px;
+    margin: auto auto;
+}
+
+/* Fake account details display */
+.fakeaccountdetails {
+    background-color: #aaa;
+    width: 80%;
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.weigh-in-box{
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(63, 62, 58, 0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.weigh-in-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.weigh-in-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.weigh-in-box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.weigh-in-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(64, 64, 191);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.meal-diary-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(0, 255, 236);
+    color: #fff;
+}
+
+.meal-diary-box a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.meal-diary-box a:hover
+{
+ 
+    color: rgb(0, 255, 236);  
+}
+
+.Weight_SelectionSelection {
+    margin: 10px;
+    
+}
+
+.Weight_Selection select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Gender_SelectionSelection {
+    margin: 10px;
+
+}
+
+.Gender_Selection select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.Exercise_SelectionSelection {
+    margin: 10px;
+    
+}
+
+.Exercise_Selection select {
+    width: 35%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #000;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Graph_Selection select {
+    width: 35%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #000;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 400px;
+}
